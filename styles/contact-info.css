@@ -1,0 +1,35 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(219, 211, 171);
+}
+.contact-pic{
+  max-width: 680px;
+}
+.contact-pic-container{
+  align-items: center;
+  display: block;
+  max-width: 700px;
+  max-height: 400px;
+  margin: auto;
+}
+.contact-heading{
+  position:relative;
+  bottom: 230px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 70px;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  text-shadow: 5px 3px 3px black;
+}
+@keyframes fade{
+  0%{color: rgb(118, 245, 192);}
+  25%{color: rgb(0, 0, 0);}
+  50%{color: rgb(219, 211, 171);}
+  75%{color: blueviolet;}
+  100%{color: rgb(243, 96, 96);}
+}

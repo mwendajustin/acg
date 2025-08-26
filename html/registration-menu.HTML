@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION MENU TAB</title>
+    <link rel = "stylesheet" href="registrastion-menu.css">
+  </head>
+
+<body>
+  <p>Welcome to Amazing Charity Group</p>
+
+<form>
+  <fieldset>
+    <legend>MEMBER INFORMATION</legend>
+      <div class="data-input">
+        <div class="label-name">
+            <label for="fname">Fullname&#42;</label>
+            <label for="nationality">Nationality&#42;</label>
+            <label for="location">Location&#42;</label>
+            <label for="phonemumber">Phone Number&#42;</label>
+            <label for="dob">Date of Birth&#42;</label>
+            <label for="identitynumber">Identification Number&#42;</label>
+
+          </div>
+          <div class="label-input">
+            <input class="js-fullname-input" type="text" placeholder="Full Name" id="fname" name="fname">
+            <input class="js-nationality-input" type="text" placeholder="Nationality" id="nationality" name="nationality">
+            <input class="js-location-input" type="text" placeholder="Location" id="location" name="location">
+            <input class="js-phone-num-input" type="number" placeholder="Phone Number" id="phonemumber" name="phonemumber">
+            <input class="js-dob-input" type="date" placeholder="Date of Birth" id="dob" name="dob">
+            <input class="js-identification-number-input" type="number" placeholder="I'd No." id="identitynumber" name="identitynumber"> 
+          </div>
+        </div>
+   <button id="registerButton" type="button" class="js-add-button add-button">Register</button>
+   <button id="submitButton" type="button" class="submit-button js-submit-button">Submit</button>     
+  </fieldset>
+
+  <fieldset>
+    <legend>ACTIVE MEMBER</legend>
+    <button id="showActiveMemberButton" type="button" class="show-active-members js-show-active-members">Show Active Members</button>
+      <div class="member-data js-member-data-grid"></div> 
+  </fieldset>
+</form>
+
+<script src="registration-menu.js"></script>
+<script src="registration-member-display.js"></script>
+
+</body>
+
+</html>

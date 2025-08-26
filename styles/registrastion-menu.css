@@ -1,0 +1,61 @@
+p{
+  font-weight: bold;
+  color: blue;
+  font-size: 30px;
+}
+legend{
+  color: red;
+}
+.data-input{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  align-items: center;
+}
+.label-name,
+.label-input
+{
+  display: grid;
+  gap: 30px;
+  padding: 5px;
+  width: 200px;
+  font-size: larger;
+}
+.add-button{
+  background-color: rgb(27, 243, 56);
+  color:yellow;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-button:hover{
+background: grey;
+color: aqua;
+}
+
+.show-active-members{
+  background-color: blueviolet;
+  color: azure;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+.show-active-members:hover{
+  background-color: cornflowerblue;
+  color: black;
+  border-color: red;
+}
+
+.member-data{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  row-gap: 10px;
+}
+.submit-button{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  padding: 5px;
+  color: aliceblue;
+}
