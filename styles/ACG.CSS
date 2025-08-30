@@ -28,7 +28,7 @@ border-radius: 10px;
 }
 .middle-header-section-content{
 width: 100%;
-background-image: url('icons/hands1.jpeg');
+background-image: url('../icons/hands1.jpeg');
 border-radius: 5px;
 background-position: center center;
 background-size: contain;
@@ -385,7 +385,7 @@ text-shadow: 3px 3px 3px black;
 100%{color: rgb(243, 37, 37);}
 }
 .event-content{
-background-image: url('photos/streetckids-fun1.jpg');
+background-image: url('../photos/streetckids-fun1.jpg');
 background-size: contain;
 width: auto;
 border: transparent solid 5px;
@@ -417,5 +417,6 @@ padding: 10px;
 .show-what-we-do{
 display: block;
 }
+
 
 
