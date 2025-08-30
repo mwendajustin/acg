@@ -19,12 +19,12 @@ document.querySelector('.what-we-do-link').addEventListener('click',()=>{
 //display modes (normal/dark modes)
 function displayToggleMode(){
     const icon = document.querySelector('.profile-pic');
-    icon.src = '/icons/group-icon.jpg';
+    icon.src = 'icons/group-icon.jpg';
     
     icon.addEventListener('click', ()=>{
-      if (icon.src = '/icons/group-icon.jpg'){
-        icon.src = '/icons/group-icon-dark.png';
-      }else{icon.src = '/icons/group-icon.jpg';}
+      if (icon.src = 'icons/group-icon.jpg'){
+        icon.src = 'icons/group-icon-dark.png';
+      }else{icon.src = 'icons/group-icon.jpg';}
       });
     
 
@@ -43,10 +43,10 @@ displayToggleMode();
 
 //activities library
 const photoLibrary = [
-  {src: '/photos/56.jpg', altText: "Group members", title: 'Members'},
-  {src: '/photos/joshua1.jpg', altText: "Parental visitation", title: 'Parental visitation'},
-  {src: '/photos/54.jpg', altText: "A parent giving advice and blessings to the  members", title: 'Parent blessings'},
-  {src: '/photos/27.jpg', altText: "A members family visitation", title: 'A members family visitation'}
+  {src: 'photos/56.jpg', altText: "Group members", title: 'Members'},
+  {src: 'photos/joshua1.jpg', altText: "Parental visitation", title: 'Parental visitation'},
+  {src: 'photos/54.jpg', altText: "A parent giving advice and blessings to the  members", title: 'Parent blessings'},
+  {src: 'photos/27.jpg', altText: "A members family visitation", title: 'A members family visitation'}
   ];
  const photosContainer = document.querySelector('.photo-library');
 
@@ -349,5 +349,6 @@ document.querySelector('.donate-link').addEventListener('click', ()=>{
 document.getElementById('closePopup').addEventListener('click',()=>{
 myPopup.close();
 });
+
 
 
