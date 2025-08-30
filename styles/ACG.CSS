@@ -391,7 +391,7 @@ text-shadow: 3px 3px 3px black;
 100%{color: rgb(243, 37, 37);}
 }
 .event-content{
-background-image: url('/photos/streetckids-fun1.jpg');
+background-image: url('photos/streetckids-fun1.jpg');
 background-size: contain;
 width: auto;
 border: transparent solid 5px;
@@ -422,4 +422,5 @@ padding: 10px;
 .show-about-us,
 .show-what-we-do{
 display: block;
+
 }
