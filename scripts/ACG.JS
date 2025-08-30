@@ -275,7 +275,7 @@ div1.className='js-div-1';
 const p1=document.createTextNode('p');
 p1.textContent='Empowering lives, one person at a time';
 const div1Image=document.createElement('img');
-div1Image.src = '/icons/children1.jpeg';
+div1Image.src = 'icons/children1.jpeg';
 div1Image.className='children-pic-1';
 div1.append(p1, div1Image);
 
@@ -287,7 +287,7 @@ const donateBtn = document.createElement('button');
 donateBtn.className='donate-button';
 donateBtn.type='button';
 const donateIcon=document.createElement('img');
-donateIcon.src = '/icons/donation1.jpeg';
+donateIcon.src = 'icons/donation1.jpeg';
 donateIcon.className='donate-icon';
 const text=document.createElement('div');
 text.innerHTML='KINDLY DONATE!';
@@ -349,6 +349,7 @@ document.querySelector('.donate-link').addEventListener('click', ()=>{
 document.getElementById('closePopup').addEventListener('click',()=>{
 myPopup.close();
 });
+
 
 
 
