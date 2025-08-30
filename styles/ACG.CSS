@@ -25,16 +25,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-/* background-image: url("/icons/group\ members.jpg"), url("/icons/group\ members\ 2.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
-background-position-x: center;
-background-position-y: center;
-*/
 }
 .middle-header-section-content{
 width: 100%;
-background-image: url('/icons/hands1.jpeg');
+background-image: url('icons/hands1.jpeg');
 border-radius: 5px;
 background-position: center center;
 background-size: contain;
@@ -422,6 +416,6 @@ padding: 10px;
 .show-about-us,
 .show-what-we-do{
 display: block;
-
 }
+
 
