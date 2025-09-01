@@ -112,7 +112,7 @@ const memberList = [{
   Location : 'Runyenjes',
   PhoneNo : '0746097143',
   MemberNumber :'34611843',
-  Position: 'ChairPerson' 
+  Position: 'Chairperson' 
 },
 {
   FullName : 'Mwenda Justin',
@@ -189,7 +189,7 @@ const memberList = [{
 {
   FullName : 'Martin Fundi',
   Nationality : 'Kenyan',
-  Location : 'Gatundu',
+  Location : 'Runyenjes',
   PhoneNo :'0714247281',
   MemberNumber :'33056813',
   Position: 'Member'
@@ -223,17 +223,18 @@ function memberListHtml (){
   let memberListHTML = '';
   buttonContent = memberBtn.textContent = 'Members'
   
-  memberList.forEach((memberList)=>{
+  /*memberList.forEach((memberList)=>{
     memberListHTML += `
     <div class="js-member-data">
         <div class="js-entry-record">Name: ${memberList.FullName}</div>
         <div class="js-entry-record">Nationality: ${memberList.Nationality}</div>
         <div class="js-entry-record">Location: ${memberList.Location}</div>
         <div class="js-entry-record">Member No: ${memberList.MemberNumber}</div>
-        <div class="js-entry-record">Position Held: ${memberList.Position}</div>
+        <div class="js-entry-record">Position: ${memberList.Position}</div>
       </div>
   ` 
-});
+});*/
+
 //displaying list on document window
  document.querySelector('.js-show-member-list').addEventListener('click', ()=>{
     if (document.querySelector('.js-members-list-details').innerHTML = ''){
@@ -243,7 +244,7 @@ function memberListHtml (){
       hideBtn.textContent = 'Hide List'
     }
     });
-};
+}; 
 memberListHtml();
 
 //changing member button text
@@ -328,7 +329,7 @@ function contactInfo () {
   secretary.append(secretaryContact);
   email.append(emailContact);
   
-  contact.append(heading, chairman, treasurer, secretary,email);
+  contact.append(heading, chairman, secretary, treasurer,email);
 };
 contactInfo();
 rightBar.append(div1, div2);
@@ -349,7 +350,5 @@ document.querySelector('.donate-link').addEventListener('click', ()=>{
 document.getElementById('closePopup').addEventListener('click',()=>{
 myPopup.close();
 });
-
-
 
 
