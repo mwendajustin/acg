@@ -17,8 +17,12 @@ margin-top: 10px;
 
 .header-bar{
 display: grid;
-grid-template-columns: 200px 1fr 200px;
+grid-template-columns: 150px 1fr 150px;
 align-items: center;
+}
+.logo-container,
+.header-pic-container{
+  display: inline-flex;
 }
 .middle-header-section{
 display: flex;
@@ -159,7 +163,8 @@ font-weight: bold;
 
 .profile-pic,
 .header-pic{
-width: 100%;
+max-width: 100%;
+height: auto;
 border-radius: 8px;
 background: transparent;
 }
