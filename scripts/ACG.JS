@@ -1,3 +1,64 @@
+const openModal1Btn = document.querySelector('.js-about-us');
+const closeModal1Btn = document.querySelector('.close-modal-1');
+const overlay = document.getElementById('overlay');
+
+overlay.addEventListener('click', ()=>{
+  const modal = document.querySelector('.modal-1');
+  closeModal1(modal);
+});
+
+overlay.addEventListener('click', ()=>{
+  const modal2 = document.querySelector('.modal-2');
+  closeModal2(modal2);
+});
+
+openModal1Btn.addEventListener('click', ()=>{
+  const modal = document.getElementById('aboutUsModal');
+  openModal1(modal);
+});
+
+closeModal1Btn.addEventListener('click', ()=>{
+  const modal = button.closest('.modal-1');
+  closeModal1(modal);
+});
+function openModal1(modal){
+  if (modal == null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
+};
+
+function closeModal1(modal){
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
+};
+
+const openModal2Btn = document.querySelector('.js-what-we-do');
+const closeModal2Btn = document.querySelector('.close-modal-2');
+
+openModal2Btn.addEventListener('click', ()=>{
+  const modal2 = document.getElementById('whatWeDoModal');
+  openModal2(modal2);
+});
+
+closeModal2Btn.addEventListener('click', ()=>{
+  const modal2 = button.closest('.modal-2');
+  closeModal2(modal2);
+});
+function openModal2(modal2){
+  if (modal2 == null) return;
+  modal2.classList.add('active');
+  overlay.classList.add('active');
+};
+
+function closeModal2(modal2){
+  if (modal2 == null) return;
+  modal2.classList.remove('active');
+  overlay.classList.remove('active');
+};
+
+
+
 //displaying about us info
 function renderAboutUs(){
   const aboutUs = document.getElementById("aboutUsLink")
@@ -104,7 +165,7 @@ function displayMembers(){
 };
 displayMembers();
 */
-
+/*
 //members list html generation
 const memberList = [{
   FullName : 'Derrick Peter K.',
@@ -223,7 +284,7 @@ function memberListHtml (){
   let memberListHTML = '';
   buttonContent = memberBtn.textContent = 'Members'
   
-  /*memberList.forEach((memberList)=>{
+  memberList.forEach((memberList)=>{
     memberListHTML += `
     <div class="js-member-data">
         <div class="js-entry-record">Name: ${memberList.FullName}</div>
@@ -233,7 +294,7 @@ function memberListHtml (){
         <div class="js-entry-record">Position: ${memberList.Position}</div>
       </div>
   ` 
-});*/
+});
 
 //displaying list on document window
  document.querySelector('.js-show-member-list').addEventListener('click', ()=>{
@@ -246,6 +307,7 @@ function memberListHtml (){
     });
 }; 
 memberListHtml();
+*/
 
 //changing member button text
 /*memberBtn.addEventListener('click', ()=>{
@@ -258,7 +320,7 @@ memberListHtml();
     hideBtn.textContent = 'Hide List';
   };
 });
-*/
+
 
 //removing member list html
 function removeMemberListHtml (){
@@ -267,6 +329,7 @@ document.querySelector('.js-members-list-details').innerHTML = '';
 hideBtn.textContent = '';
 })};
 removeMemberListHtml();
+*/
 
 //generating right side bar html
 function rightSideBar(){
