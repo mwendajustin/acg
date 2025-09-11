@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mwenda Justin">
+    
     <title>AMAZING CHARITY GROUP</title>
 
     <link rel = "stylesheet" href="styles/ACG.CSS">
@@ -87,8 +91,8 @@
       <div class="upcoming-events">
         <div class="event-container">UPCOMING EVENTS</div>
         <div class="event-content">
-          <h2>&#9787;The orphaned & needy children fun day&#9787;</h2>
-          <p>We are organizing a "Fun day" for the orphaned and needy children to provide a safe space for recreation and positive social interaction&#44; which will have a strong&#44; positive impact on their psychological and physical well-being&#46;</p>
+          <h2>&#9787;Streets children funs day&#9787;</h2>
+          <p>We are organizing a "Fun day" for the street children to provide a safe space for recreation and positive social interaction&#44; which will have a strong&#44; positive impact on their psychological and physical well-being&#46;</p>
           <p>The event is scheduled on Suday&#44; December 14<sup>th</sup> 2025&#44; at Runyenjes DOs Stadium starting at 1.00pm</p>
           <div class="activities-container">
             <h3>Activities for the day include:</h3>
@@ -104,7 +108,7 @@
               <li>Creative expression</li>
             </ul>
           </div>
-          <p>We welcome you all to <span><a onclick="donationPopUp();">kindly support us</a></span> and bring along an orphaned and needy child you may know.</p>
+          <p>We welcome you all to <span><a onclick="donationPopUp();">kindly support us</a></span> and bring along a street child you may know.</p>
           <h4>Welcome All!</h4>
         </div>
       </div>
@@ -206,20 +210,65 @@
     </fieldset>
 
     <fieldset>
-      <div class="members-list-container">
+      <!--
+       <div class="members-list-container">
       <h2>Active Members</h2>
-      <!--members list generated in js-->
 
       <button type="button" class="active-show-members js-show-member-list"></button>
       <div class="members-list js-members-list-details"></div>
       <button type="button" class="hide-button js-hide-button"></button>
       </div>
+      -->
+      <div class="modal-2" id="whatWeDoModal">
+        <div id="modal2Header" class="modal-2-header">
+          <div class="modal-2-title"><h2>What We Do</h2></div>
+          <button data-close-button class="close-modal-2">&times;</button>
+        </div>
+        <div class="modal-2-body">
+          <h1>What We Do</h1>
+
+          <p>At Amazing Charity Group, we turn compassion into action. Our work focuses on meeting urgent needs while building long-term solutions that transform lives and strengthen communities.</p>
+
+          <p>We achieve this by:</p>
+
+          <p>Providing Essential Support &#8259; Supplying food, clothing, and basic necessities to individuals and families in need.</p>
+
+          <p>Empowering Through Education &#8259; Offering scholarships, learning resources, and mentorship to give children and youth a brighter future.</p>
+
+          <p>Improving Health & Wellbeing &#8259; Supporting access to healthcare, awareness programs, and wellness initiatives for vulnerable groups.</p>
+
+          <p>Community Development &#8259; Creating sustainable projects that promote self-reliance, skill-building, and economic opportunity.</p>
+
+          <p>Advocacy & Awareness &#8259; Raising voices for the marginalized and promoting positive change through community engagement and partnerships.</p>
+
+          <p>Every program we run is guided by a single purpose: to bring hope, dignity, and opportunity to those who need it most.</p>
+        </div>
+      </div>
+     <div class="modal-1" id="aboutUsModal">
+      <div id="modal1Header" class="modal-1-header">
+        <div class="modal-1-title"><h2>About Us</h2></div>
+        <button data-close-button class="close-modal-1">&times;</button>
+      </div>
+      <div class="modal-1-body">
+        <p>At Amazing Charity Group&#44; we believe that every act of kindness has the power to change lives&#46; Our mission is to bring hope&#44; support&#44; and opportunity to those in need by working hand in hand with communities&#44; partners&#44; and volunteers&#46;</p>
+
+        <p>Founded on the values of compassion&#44; integrity&#44; and inclusivity&#44; we are dedicated to creating lasting impact through initiatives that address real challenges—whether it&#39;s fighting hunger&#44; supporting education&#44; providing healthcare&#44; or empowering families to build brighter futures&#46;</p>
+
+        <p>We are more than just a charity-we are a community of change-makers united by a shared vision&#58; a world where no one is left behind&#46; Every donation&#44; every volunteer hour&#44; and every partnership fuels our ability to reach those who need it most&#46;</p>
+
+        <p>Together&#44; we can turn empathy into action and hope into reality&#46;</p>
+
+        <h2>Join us in making a difference&#46;</h2>
+      </div>
+     </div>
+     <div id="overlay"></div>
     </fieldset>
+
     <div class="foot-notes">
       <div class="foot-notes-container-2">
         <a onclick="donationPopUp();">DONATE</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">WHAT WE DO</a>
+        <a data-modal-target="aboutUsModal"class="js-about-us">ABOUT US</a>
+        <a data-modal-target="whatWeDoModal" class="js-what-we-do">WHAT WE DO</a>
       </div>
       <div class="follow-us-div">
           <h1>Follow Us</h1>
@@ -231,7 +280,7 @@
         </div>
         <div>
           <a href="https://x.com/@AmazingG66681/" target="_blank"><img class="social-media-icons" src="icons/x-icon.png"></a>
-          <p>X(Twitter)</p>
+          <p>X</p>
         </div>
         <div>
           <a href="https://www.tiktok.com/@amazingcharitygroup?_t=ZM-8zRxCPAs92L&_r=1" target="_blank"><img class="social-media-icons" src="icons/tiktok-icon.jpeg"></a>
@@ -250,6 +299,8 @@
        <p>&copy; 2025 Amazing Charity Group. All rights reserved.</p>
       </div>
     </div>
+
+    <div id="footerAboutUs"></div>
   </form>
 
   <dialog id="myPopup">
@@ -265,7 +316,3 @@
 </body>
 
 </html>
-
-
-
-
