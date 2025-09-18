@@ -74,9 +74,9 @@ document.querySelector('.about-us-link').addEventListener('click',()=>{
   renderAboutUs();
 });
 document.querySelector('.what-we-do-link').addEventListener('click',()=>{
-  renderWhatWeDo();
+ renderWhatWeDo();
 });
-
+/*
 //display modes (normal/dark modes)
 function displayToggleMode(){
     const icon = document.querySelector('.profile-pic');
@@ -101,6 +101,7 @@ function displayToggleMode(){
       })
 };
 displayToggleMode();
+*/
 
 //activities library
 const photoLibrary = [
