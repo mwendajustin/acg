@@ -246,6 +246,8 @@ column-gap: 5px;
 row-gap: 5px;
 border-bottom: solid rgb(245, 26, 62) 5px;
 border-radius: 5px;
+justify-content: center;
+align-items: center;
 }
 .photo-div,
 .video-div{
@@ -275,7 +277,7 @@ text-align: center;
 }
 .second-intro-block{
 display: grid;
-grid-template-columns: 1fr 300px;
+grid-template-columns: 1fr 280px;
 }
 .left-side{
 background-image: radial-gradient(rgb(245, 245, 76), rgb(226, 102, 226)40%, rgb(245, 182, 245));
@@ -284,7 +286,7 @@ background-image: radial-gradient(rgb(245, 245, 76), rgb(226, 102, 226)40%, rgb(
 display: flex;
 flex-direction: column;
 padding-left: 5px;
-background-color: rgb(245, 182, 245);
+
 color: rgb(0, 17, 252);
 font-style: italic;
 font-size: large;
@@ -307,7 +309,7 @@ border-radius: 5px;
 display: block;
 margin-left: 45px;
 position: relative;
-border-bottom: solid;
+border-bottom: solid black;
 }
 .js-donate-title{
 position: absolute;
@@ -348,7 +350,7 @@ cursor: pointer;
 align-items: center;
 }
 .donate-button:hover{
-box-shadow: 5px 5px 5px;
+box-shadow: 5px 5px 5px red;
 }
 .children-pic-1,
 .street-kids-1,
@@ -445,7 +447,7 @@ display: block;
 }
 .foot-notes{
 text-align: center;
-background-color: #02010e;
+background-color: rgb(6, 12, 31);
 color: white;
 border-radius: 10px;
 }
@@ -490,7 +492,7 @@ justify-content: space-around;
   border-radius: 10px;
   z-index: 10;
   background-color: white;
-  width: 500px;
+  width: 700px;
   max-width: 80%;
   box-shadow: 3px 3px 5px blue;
 }
