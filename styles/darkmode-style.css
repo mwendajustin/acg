@@ -64,3 +64,19 @@ button{
 .darkmode #theme-switch svg:last-child{
   display: block;
 }
+
+#timer{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+font-style: italic;
+font-size: smaller;
+color: #070b1d;
+background-color: rgb(255, 255, 255, 0.5);
+border-radius: 5px;
+height: auto;
+backdrop-filter: blur(2px);
+}

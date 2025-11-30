@@ -1,0 +1,68 @@
+body{
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: inherit;
+}
+h1{
+  color: rgb(132, 0, 255);
+  text-decoration: underline rgb(190, 188, 188);
+}
+label{
+  font-size: inherit;
+  color: rgb(248, 87, 87);
+}
+input{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: inherit;
+  font-size: 1.2rem;
+  font-style: italic;
+  width: 100%;
+  border: none;
+  background-color: rgb(233, 240, 247);
+  border-radius: 0.2em;
+  box-shadow: 2px 1px green;
+}
+#submitButton{
+  width: 5em;
+  cursor: pointer;
+  background-color: rgb(219, 49, 219);
+  color: beige;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 0.2em;
+  box-shadow: 2px 1px green;
+}
+#submitButton:hover{
+  background-color: rgb(236, 99, 236);
+  box-shadow: 2px 2px red;
+  transition: 0.5s ease;
+}
+#saveDetails{
+      font-family: 'Times New Roman', Times, serif;
+        font-size: inherit;
+        font-size: 1.2rem;
+        font-style: italic;
+        width: 5rem;
+        border: none;
+        border-radius: 0.2em;
+        background-color: rgb(20, 168, 119);
+        box-shadow: 2px 1px green;
+        color: beige;
+}
+#saveDetails:hover{
+  cursor: pointer;
+box-shadow: 2px 2px red;
+  transition: 0.5s ease;
+  background-color: rgb(34, 128, 96);
+}
+#dataInput{
+  text-align: center;
+  padding:1em;
+  margin: auto;
+}
+#memberDetails{
+  background-color: aquamarine;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
