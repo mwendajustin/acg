@@ -166,7 +166,7 @@ function displayMembers(){
 };
 displayMembers();
 */
-/*
+
 //members list html generation
 const memberList = [{
   FullName : 'Derrick Peter K.',
@@ -174,7 +174,7 @@ const memberList = [{
   Location : 'Runyenjes',
   PhoneNo : '0746097143',
   MemberNumber :'34611843',
-  Position: 'Chairperson' 
+  Position: 'President' 
 },
 {
   FullName : 'Mwenda Justin',
@@ -238,7 +238,7 @@ const memberList = [{
   Location : 'Runyenjes',
   PhoneNo :'0710369959',
   MemberNumber :'27071995',
-  Position: 'Member'
+  Position: 'Deputy President'
 },
 {
   FullName : 'Veronica Ruguru Gatheca',
@@ -246,7 +246,7 @@ const memberList = [{
   Location : 'Gatundu',
   PhoneNo :'0768804074',
   MemberNumber :'36703869',
-  Position: 'Member'
+  Position: 'Assistant Secretary'
 },
 {
   FullName : 'Martin Fundi',
@@ -291,7 +291,6 @@ function memberListHtml (){
         <div class="js-entry-record">Name: ${memberList.FullName}</div>
         <div class="js-entry-record">Nationality: ${memberList.Nationality}</div>
         <div class="js-entry-record">Location: ${memberList.Location}</div>
-        <div class="js-entry-record">Member No: ${memberList.MemberNumber}</div>
         <div class="js-entry-record">Position: ${memberList.Position}</div>
       </div>
   ` 
@@ -301,27 +300,27 @@ function memberListHtml (){
  document.querySelector('.js-show-member-list').addEventListener('click', ()=>{
     if (document.querySelector('.js-members-list-details').innerHTML = ''){
       document.querySelector('.js-members-list-details').innerHTML = memberListHTML;
+    
     } else{
       document.querySelector('.js-members-list-details').innerHTML = memberListHTML;
-      hideBtn.textContent = 'Hide List'
+        hideBtn.textContent = 'Hide List'
     }
     });
 }; 
 memberListHtml();
-*/
 
+/*
 //changing member button text
-/*memberBtn.addEventListener('click', ()=>{
+memberBtn.addEventListener('click', ()=>{
   let clickCounter = 0;
   const maxClicks = 1;
   clickCounter++;
 
   if (clickCounter >= 1){
-    memberBtn.textContent = 'Active Members'; 
     hideBtn.textContent = 'Hide List';
   };
 });
-
+*/
 
 //removing member list html
 function removeMemberListHtml (){
@@ -330,7 +329,7 @@ document.querySelector('.js-members-list-details').innerHTML = '';
 hideBtn.textContent = '';
 })};
 removeMemberListHtml();
-*/
+
 
 //generating right side bar html
 function rightSideBar(){

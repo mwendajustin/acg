@@ -23,3 +23,11 @@ icon.src = 'icons/group-icon.jpg';
 if(darkmode === "active"){
   icon.src = 'icons/group-icon-dark.png';
 };
+
+const timer = document.getElementById('timer');
+
+function setTimer () {
+  const time = new Date();
+timer.innerHTML = time;
+};
+setInterval(()=>{setTimer();},1000);
