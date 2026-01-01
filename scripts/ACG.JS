@@ -255,15 +255,7 @@ const memberList = [{
   PhoneNo :'0714247281',
   MemberNumber :'33056813',
   Position: 'Member'
-},
-{
-  FullName : 'Lilian Mukami',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo :'0755839172',
-  MemberNumber :'34214423',
-  Position: 'Member'
-},
+},
 {
   FullName : 'Cakston Njiru',
   Nationality : 'Kenyan',
