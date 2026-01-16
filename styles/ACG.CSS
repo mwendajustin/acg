@@ -321,7 +321,8 @@ display: grid;
 grid-template-columns: 1fr 280px;
 }
 .left-side{
-background-image: radial-gradient(rgb(245, 245, 76), rgb(226, 102, 226)40%, rgb(245, 182, 245));
+/*background-image: radial-gradient(rgb(245, 245, 76), rgb(226, 102, 226)40%, rgb(245, 182, 245));*/
+background-color:inherit;
 }
 .right-side{
 display: flex;
@@ -587,4 +588,5 @@ left: 50%;
 transform: translate(-50%, -50%);
 padding: 1%;
 border-radius: 10px;
+
 }
