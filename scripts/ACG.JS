@@ -76,32 +76,7 @@ document.querySelector('.about-us-link').addEventListener('click',()=>{
 document.querySelector('.what-we-do-link').addEventListener('click',()=>{
  renderWhatWeDo();
 });
-/*
-//display modes (normal/dark modes)
-function displayToggleMode(){
-    const icon = document.querySelector('.profile-pic');
-    icon.src = 'icons/group-icon.jpg';
-    
-    icon.addEventListener('click', ()=>{
-      if (icon.src = 'icons/group-icon.jpg'){
-        icon.src = 'icons/group-icon-dark.png';
-      }else{icon.src = 'icons/group-icon.jpg';}
-      });
-    
-
-      icon.addEventListener('click', ()=>{
-        if(document.body.style.backgroundColor !== 'black'){
-          document.body.style.backgroundColor = 'black';
-          document.body.style.color = 'white';
-        } else{
-          document.body.style.backgroundColor = 'white';
-          document.body.style.color = 'black';
-        }
-
-      })
-};
-displayToggleMode();
-*/
+
 
 //activities library
 const photoLibrary = [
@@ -126,46 +101,7 @@ const photoLibrary = [
     photosContainer.appendChild(photoDiv);
   }
   );
-
-
-/*const listInfo = [{
-  FullName : 'Derrick Peter K.',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo : '0746097143',
-  MemberNumber :'34611843',
-  Position: 'ChairPerson' 
-},
- {FullName : 'Mwenda Justin',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo : '0791338151',
-  MemberNumber :'33422555',
-  Position: 'Secretary'
-}
-];
-
-function displayMembers(){
-  let membersList = '';
-  let html = '';
-  let member = document.querySelector('.js-members-list-details');
-  const div = document.createElement('div');
-
-  listInfo.forEach((listInfo)=>{
-  html += `
-  Name: ${listInfo.FullName}
-  Nationality: ${listInfo.Nationality}
-  Location: ${listInfo.Location}
-  Member Number: ${listInfo.MemberNumber}
-  Position: ${listInfo.Position}
-  `
-  });
-    div.textContent = html;
-   member.appendChild(div);
-   membersList += member;
-};
-displayMembers();
-*/
+
 
 //members list html generation
 const memberList = [{
@@ -276,19 +212,7 @@ function memberListHtml (){
     });
 }; 
 memberListHtml();
-
-/*
-//changing member button text
-memberBtn.addEventListener('click', ()=>{
-  let clickCounter = 0;
-  const maxClicks = 1;
-  clickCounter++;
-
-  if (clickCounter >= 1){
-    hideBtn.textContent = 'Hide List';
-  };
-});
-*/
+
 
 //removing member list html
 function removeMemberListHtml (){
