@@ -191,15 +191,7 @@ const memberList = [{
   PhoneNo : '0748861773',
   MemberNumber :'39430693',
   Position: 'Treasurer'
-},
-{
-  FullName : 'Antony Mugambi',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo : '0790504429',
-  MemberNumber :'30081632',
-  Position:'Member'
-},
+},
 {
   FullName : 'Joshua Mutugi Nyaga',
   Nationality : 'Kenyan',
@@ -239,23 +231,7 @@ const memberList = [{
   PhoneNo :'0710369959',
   MemberNumber :'27071995',
   Position: 'Deputy President'
-},
-{
-  FullName : 'Veronica Ruguru Gatheca',
-  Nationality : 'Kenyan',
-  Location : 'Gatundu',
-  PhoneNo :'0768804074',
-  MemberNumber :'36703869',
-  Position: 'Assistant Secretary'
-},
-{
-  FullName : 'Martin Fundi',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo :'0714247281',
-  MemberNumber :'33056813',
-  Position: 'Member'
-},
+},
 {
   FullName : 'Cakston Njiru',
   Nationality : 'Kenyan',
