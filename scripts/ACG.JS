@@ -127,23 +127,7 @@ const memberList = [{
   PhoneNo : '0748861773',
   MemberNumber :'39430693',
   Position: 'Treasurer'
-},
-{
-  FullName : 'Joshua Mutugi Nyaga',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo :'0115287788',
-  MemberNumber :'40764828',
-  Position: 'Member'
-},
-{
-  FullName : 'Emmanuel Munene',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo :'0708822584',
-  MemberNumber :'31027571',
-  Position: 'Member'
-},
+},
 {
   FullName : 'Nancy Chirchir',
   Nationality : 'Kenyan',
@@ -151,15 +135,7 @@ const memberList = [{
   PhoneNo :'0708235773',
   MemberNumber :'29475596',
   Position: 'Member'
-},
-{
-  FullName : 'Kennedy Mwenda',
-  Nationality : 'Kenyan',
-  Location : 'Runyenjes',
-  PhoneNo :'0798455377',
-  MemberNumber :'34656921',
-  Position: 'Member'
-},
+},
 {
   FullName : 'Janet Betty Mumbi',
   Nationality : 'Kenyan',
